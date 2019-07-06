@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <title></title>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
+  <link href="https://api.mapbox.com/mapbox-assembly/v0.23.2/assembly.min.css" rel="stylesheet">
+  
+  <style>
+    .mapboxgl-canvas {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    button {
+      display: block;
+      position: relative;
+      margin: 0px auto;
+      width: 300px;
+      height: 40px;
+      padding: 10px;
+      border: none;
+      border-radius: 3px;
+      font-size: 12px;
+      text-align: center;
+      color: #fff;
+      background: #ee8a65;
+    }
+
+    #container {
+      display: flex;
+      justify-content: space-between;
+      height: 100vh;
+    }
+
+    .col-side {
+      flex: 300px 0 0;
+    }
+
+    #col2 {
+      flex: 1;
+    }
+
+    #col1 {
+      background-color: #eee;
+    }
+
+    #col2 {}
+
+    body {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='app'></div>
+</body>
+
+</html>
